@@ -107,9 +107,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-export PATH="$PATH:/home/raccoon/.local/share/JetBrains/Toolbox/scripts"
+export PATH="$PATH:/$HOME/g/.local/share/JetBrains/Toolbox/scripts"
 export WORDLIST="/usr/share/wordlist/"
-export PATH="$PATH:/home/raccoon/.local/bin:/usr/local/go/bin"
+export PATH="$PATH:/$HOME/g/.local/bin:/usr/local/go/bin"
 export PATH="$HOME/.n/bin:$PATH"
 export N_PREFIX="$HOME/.n"
 export TERM=xterm-256color
@@ -123,7 +123,6 @@ alias updt="sudo apt-get update && sudo apt-get upgrade"
 alias dirbuster="java -jar /opt/dirbuster/DirBuster-1.0-RC1.jar"
 alias dls="docker image ls"
 alias k="kubectl" 
-alias k9s="/home/raccoon/git/k9s/execs/k9s"
 alias dl='cd $HOME/Downloads/'
 alias sds='cd $HOME/Workspace/sds/'
 alias school='cd $HOME/Workspace/school/S8/'
